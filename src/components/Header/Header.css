@@ -1,0 +1,10 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #7e8ffe50, #5626db50);
+}
+button{
+    
+    background: linear-gradient(to left, #7E90FE, #9873FF);
+    color: #fff;
+}
