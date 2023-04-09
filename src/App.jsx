@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return(
     <>
-    <Header/>
+      <Header/>
+      {/* <Footer/> */}
     </>
   )
 }
