@@ -1,51 +1,49 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
     return (
-        <>
-            {/* <div classNameName='header '>
-                <div className='d-flex  justify-content-between container '>
-                    <h2 className='mt-4'>Olpor</h2>
-                    <nav className='mt-4 pt-2'>
-                        <ul className='d-flex  justify-content-between container  me-5'>
-                            <li className='list-one pe-3'>Statistics</li>
-                            <li className='pe-3'>Applied Jobs</li>
-                            <li>Blog</li>
-                        </ul>
-                    </nav>
-                    <button className='mt-4'>Start Applying</button>
-                </div>
-            </div> */}
-
-
-            <div className='header'>
-                <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                    <div className="container-fluid">
-                        <a className="navbar-brand me-5 pe-5" href="#">Olpor</a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li className="nav-item">
-                                    <a className="list-one nav-link active " aria-current="page" href="#">Statistics</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Applied Jobs</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Blog</a>
-                                </li>
-                            </ul>
-                            <button type="submit">Start Applying</button>
-
+        <div className='header'>
+            <nav className="navbar navbar-expand-lg bg-body-tertiary container">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">Navbar</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div className='navbar-nav me-auto mb-2 mb-lg-0'>
+                            <Link to="/statistics">Statistics</Link>
+                            <Link to="/applied">Applied Jobs</Link>
+                            <Link to="/blog">Blog</Link>
                         </div>
-                    </div>
-                </nav>
-            </div>
 
-        </>
+
+                        <button className="btn " type="submit">Search</button>
+                    </div>
+                </div>
+            </nav>
+
+
+            <div className='container d-flex justify-content-between mt-5 pt-3'>
+                    <div className='ms-5'>
+                        <h1>One Step <br /> Closer To Your <br />
+                            <span className='span1'> Dream Job</span></h1>
+
+                        <p className='mt-3 text-secondary'>Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
+                        <button className='mt-3' type="submit">Get Started</button>
+                    </div>
+
+                    <div>
+                        <img src="../../Icons/P3OLGJ1 copy 1.png" alt="" />
+                    </div>
+                </div>
+
+
+
+        </div>
+
+
     );
 };
 
