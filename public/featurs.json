@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "sector": "Technical Database Engineer ",
+        "companyName": "Google LLC",
+        "location": "Dhaka, Bangladesh",
+        "salary": " 100K - 150K",
+        "jobCategory": "Remote",
+        "img":"../src/Icons/google-1-1 1.png"
+    },
+    {
+        "id": 2,
+        "sector": "Senior Product Designer",
+        "companyName": "Netflix",
+        "location": "Dhaka, Bangladesh",
+        "salary": " 100K - 150K",
+        "jobCategory": "Remote",
+        "img":"../src/Icons/netflix-4 1.png"
+    },
+    {
+        "id": 3,
+        "sector": "Software Engineer",
+        "companyName": "Tesla",
+        "location": "Dhaka, Bangladesh",
+        "salary": " 100K - 150K",
+        "jobCategory": "Onsite",
+        "img":"../src/Icons/tesla-9 1.png"
+    },
+    {
+        "id": 4,
+        "sector": " ",
+        "companyName": "",
+        "location": "Dhaka, Bangladesh",
+        "salary": " 100K - 150K",
+        "jobCategory": "Onsite",
+        "img":"../src/Icons/google-1-1 1.png"
+    },
+    {
+        "id": 5,
+        "sector": "Technical Database Engineer ",
+        "companyName": "Google LLC",
+        "location": "Dhaka, Bangladesh",
+        "salary": " 100K - 150K",
+        "jobCategory": "Remote",
+        "img":"../src/Icons/google-1-1 1.png"
+    },
+    {
+        "id": 6,
+        "sector": "Technical Database Engineer ",
+        "companyName": "Google LLC",
+        "location": "Dhaka, Bangladesh",
+        "salary": " 100K - 150K",
+        "jobCategory": "Remote",
+        "img":"../src/Icons/google-1-1 1.png"
+    }
+]
