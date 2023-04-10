@@ -26,18 +26,21 @@ const Header = () => {
 
 
             <div className='container d-flex justify-content-between mt-5 pt-3'>
-                    <div className='ms-5'>
-                        <h1>One Step <br /> Closer To Your <br />
-                            <span className='span1'> Dream Job</span></h1>
+                <div className='ms-5'>
+                    <h1>One Step <br /> Closer To Your <br />
+                        <span className='span1'> Dream Job</span></h1>
 
-                        <p className='mt-3 text-secondary'>Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
-                        <button className='mt-3' type="submit">Get Started</button>
-                    </div>
-
-                    <div>
-                        <img src="../../Icons/P3OLGJ1 copy 1.png" alt="" />
-                    </div>
+                    <p className='mt-3 text-secondary'>Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
+                    <button className='mt-3' type="submit">Get Started</button>
                 </div>
+
+                <div>
+                    <img src="../../Icons/P3OLGJ1 copy 1.png" alt="" />
+                </div>
+            </div>
+
+
+           
 
 
 
