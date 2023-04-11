@@ -1,20 +1,4 @@
 .header{
     width: 100%;
-    height: 100vh;
     background: linear-gradient(to right, #7e8ffe39, #5626db38);
-}
-nav a{
-    margin-left: 40px;
-    margin-right: 15px;
-    font-size: 20px;
-    color: #493b70;
-
-}
-button{
-    
-    background: linear-gradient(to left, #7E90FE, #9873FF);
-    color: #fff;
-}
-.span1{
-    color: #9873FF ;
 }
