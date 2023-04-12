@@ -25,10 +25,7 @@ const AppliedJob = () => {
                 <h3 >Applied Jobs</h3>
             </div>
             {
-                savedJob.map(job => <Displayjob
-                    key={job.id}
-                    job={job}
-                ></Displayjob>)
+                savedJob.map(job => <Displayjob key={job.id} job={job}></Displayjob>)
             }
         </div>
     );

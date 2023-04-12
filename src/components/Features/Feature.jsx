@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './Feature.css'
-import { useState } from 'react';
 
 const Feature = ({ feature }) => {
     const { id, sector, companyName, location, salary, jobCategory, img } = feature;
@@ -9,7 +8,7 @@ const Feature = ({ feature }) => {
         <div>
             <div className="col">
                 <div className="card featuresCard">
-                    <img src={img} className="card-img-top w-25 ms-3" alt="..." />
+                    <img src={img} className="card-img-top w-50 ms-3" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title fw-bold">{sector}</h5>
                         <p className="card-text text-secondary fw-bold">{companyName}</p>
