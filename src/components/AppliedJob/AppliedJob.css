@@ -1,0 +1,12 @@
+.AppliedHeader{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(to right, #7e8ffe39, #5626db38);
+
+}
+.AppliedHeader h3{
+    font-weight: bold;
+    text-align:  center;
+    align-items: center;
+    color: #1A1919 ;
+}

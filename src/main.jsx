@@ -12,6 +12,7 @@ import Statistics from './components/Statistics/Statistics';
 import SingleFeatures from './components/SingleFeatures/SingleFeatures';
 import Errorpage from './components/Errorpage/Errorpage';
 import Blog from './components/Blog/Blog';
+import AppliedJob from './components/AppliedJob/AppliedJob';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog></Blog>
+      },
+      {
+        path: '/applied',
+        element: <AppliedJob></AppliedJob>
       },
       {
         path: '/jobs/:jobId',

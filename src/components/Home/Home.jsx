@@ -13,21 +13,21 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setFeatures(data))
     }, [])
-    // console.log(features)
+    const [viewAll, setViewAll] = useState(false);
+    const handleSeeMore = () => {
+        setViewAll(true)
+    }
     return (
         <div>
             <div className='home  d-flex justify-content-between '>
-                <div className='container mt-5'>
+                <div className='container mt-5 pt-5'>
                     <h1>One Step <br /> Closer To Your <br />
                         <span className='span1'> Dream Job</span></h1>
 
                     <p className='mt-3 text-secondary'>Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
-                    <button className='mt-3 btn' type="submit">Get Started</button>
+                    <button className='mt-3 btn text-white  fw-semibold' type="submit">Get Started</button>
                 </div>
 
-                <div>
-                    <img src="../../Icons/P3OLGJ1 copy 1.png" alt="" />
-                </div>
             </div>
 
             <div>
@@ -52,8 +52,7 @@ const Home = () => {
             <div className="features container mt-4">
                 <div className="feature row row-cols-1 row-cols-md-2 g-4 mt-4">
                     {
-                        // features.map(feature => console.log(feature))
-                        features.map(feature => {
+                        features.slice(0, viewAll ? 8 : 4).map(feature => {
                             return (
                                 <Feature key={feature.id}
                                     feature={feature}
@@ -61,12 +60,11 @@ const Home = () => {
                             )
                         })
                     }
-
                 </div>
-                <div className='mx-auto'>
-
-                <button className='my-5 btn'>See All Jobs</button>
+                <div onClick={() => { handleSeeMore() }} className='d-flex justify-content-center'>
+                    <button className='my-5 btn'>See All Jobs</button>
                 </div>
+
             </div>
 
 
