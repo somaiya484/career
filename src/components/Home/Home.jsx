@@ -19,19 +19,28 @@ const Home = () => {
     }
     return (
         <div>
-            <div className='home sm:  d-flex justify-content-between '>
-                <div className='container mt-5 pt-5 ms-5'>
-                    <h1>One Step <br /> Closer To Your <br />
-                        <span className='span1'> Dream Job</span></h1>
+            <div className='container'>
+                <div className=" row row-cols-1 row-cols-md-2">
+                    <div className="col">
+                        <div className=" card border border-0">
+                            <div className='container mt-5 pt-5'>
+                                <h1>One Step <br /> Closer To Your <br />
+                                    <span className='span1'> Dream Job</span></h1>
 
-                    <p className='mt-3 text-secondary'>Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
-                    <button className='mt-3 btn text-white  fw-semibold' type="submit">Get Started</button>
+                                <p className='mt-3 text-secondary'>Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
+                                <button className='mt-3 btn text-white  fw-semibold' type="submit">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className=" card border border-0">
+                            <img className='w-100' src="../../../public/asset/Icons/P3OLGJ.png" alt="" />
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img className='image-fluid w-100' src="../../../public/asset/Icons/P3OLGJ.png" alt="" />
-                </div>
-
             </div>
+
+
 
             <div>
                 <h2 className='text-center mt-5 pt-5 fw-bold fs-1'>Job Category List</h2>
