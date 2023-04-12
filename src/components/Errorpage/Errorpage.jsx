@@ -63,7 +63,6 @@ const Errorpage = () => {
           <Link
             to='/'
             className='px-4 py-3 fw-bold   text-secondary'
-            // rounded
           >
             Back to homepage
           </Link>
