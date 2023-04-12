@@ -11,12 +11,12 @@ const AppliedJob = () => {
             .then(data => setJobs(data))
     }, [])
     const data = getShoppingCart();
-    const savedJob = [];
-    for (const id in data) {
-        const addedJob = jobs.find(
-            pd => pd.id === id);
-        if (addedJob) {
-            savedJob.push(addedJob);
+    const storedJob = [];
+    for (const idNo in data) {
+        const setJob = jobs.find(
+            pd => pd.id === idNo);
+        if (setJob) {
+            storedJob.push(setJob);
         }
     };
     return (
@@ -25,7 +25,7 @@ const AppliedJob = () => {
                 <h3 >Applied Jobs</h3>
             </div>
             {
-                savedJob.map(job => <Displayjob key={job.id} job={job}></Displayjob>)
+                storedJob.map(job => <Displayjob key={job.id} job={job}></Displayjob>)
             }
         </div>
     );

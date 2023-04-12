@@ -19,13 +19,16 @@ const Home = () => {
     }
     return (
         <div>
-            <div className='home  d-flex justify-content-between '>
-                <div className='container mt-5 pt-5'>
+            <div className='home sm:  d-flex justify-content-between '>
+                <div className='container mt-5 pt-5 ms-5'>
                     <h1>One Step <br /> Closer To Your <br />
                         <span className='span1'> Dream Job</span></h1>
 
                     <p className='mt-3 text-secondary'>Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
                     <button className='mt-3 btn text-white  fw-semibold' type="submit">Get Started</button>
+                </div>
+                <div>
+                    <img className='image-fluid w-100' src="../../../public/asset/Icons/P3OLGJ.png" alt="" />
                 </div>
 
             </div>
