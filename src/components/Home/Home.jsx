@@ -22,7 +22,7 @@ const Home = () => {
                         <span className='span1'> Dream Job</span></h1>
 
                     <p className='mt-3 text-secondary'>Explore thousands of job opportunities with all the <br /> information you need. Its your future. Come find it. Manage all <br /> your job application from start to finish.</p>
-                    <button className='mt-3' type="submit">Get Started</button>
+                    <button className='mt-3 btn' type="submit">Get Started</button>
                 </div>
 
                 <div>
@@ -50,7 +50,7 @@ const Home = () => {
                 <p className='mt-2 text-secondary text-center mx-1'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
             <div className="features container mt-4">
-                <div className="feature row row-cols-1 row-cols-md-2 g-4">
+                <div className="feature row row-cols-1 row-cols-md-2 g-4 mt-4">
                     {
                         // features.map(feature => console.log(feature))
                         features.map(feature => {
@@ -62,6 +62,10 @@ const Home = () => {
                         })
                     }
 
+                </div>
+                <div className='mx-auto'>
+
+                <button className='my-5 btn'>See All Jobs</button>
                 </div>
             </div>
 

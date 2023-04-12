@@ -1,4 +1,7 @@
-.features{
-    background: linear-gradient(to right, #7e8ffe29, #9873ff27);
-    border: none;
+.card{
+    border: 1px solid rgba(3, 1, 1, 0.137);
+}
+.featuresBtn{
+    border: 2px solid #9873FF;
+    color: #9873FF;
 }

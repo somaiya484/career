@@ -10,8 +10,7 @@ nav a{
     color: #493b70;
 
 }
-button{
-    
+.btn{
     background: linear-gradient(to left, #7E90FE, #9873FF);
     color: #fff;
 }
