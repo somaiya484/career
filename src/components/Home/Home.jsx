@@ -62,7 +62,7 @@ const Home = () => {
                     }
                 </div>
                 <div onClick={() => { handleSeeMore() }} className='d-flex justify-content-center'>
-                    <button className='my-5 btn'>See All Jobs</button>
+                    <button className='my-5 btn text-white fw-semibold'>See All Jobs</button>
                 </div>
 
             </div>
