@@ -34,7 +34,7 @@ const Home = () => {
                     </div>
                     <div className="col">
                         <div className=" card border border-0">
-                            <img className='w-100' src="../../../public/asset/Icons/P3OLGJ.png" alt="" />
+                            <img className='w-100' src="https://i.ibb.co/GVMrzbt/P3-OLGJ1-copy-1.png" alt="P3-OLGJ1-copy-1" border="0"/>
                         </div>
                     </div>
                 </div>

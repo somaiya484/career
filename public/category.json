@@ -3,27 +3,27 @@
         "id": 1,
         "name": "Account Finance",
         "amountOfJob": "300 Jobs Available",
-        "img": "../public/asset/Icons/accountsone.png"
+        "img":"https://i.ibb.co/ByhL154/accountsone.png"
     },
     {
         "id": 2,
         "name": "Creative Design",
         "amountOfJob": "100+ Jobs Available",
-        "img": "../public/asset/Icons/business 1.png"
+        "img":"https://i.ibb.co/ZdvdYmT/business-1.png"
 
     },
     {
         "id": 3,
         "name": "Marketing & Sales",
         "amountOfJob": "150 Jobs Available",
-        "img": "../public/asset/Icons/socialmedia.png"
+        "img":"https://i.ibb.co/V33jsw8/socialmedia.png"
 
     },
     {
         "id": 4,
         "name": "Marketing & Sales",
         "amountOfJob": "224 Jobs Available",
-        "img": "../public/asset/Icons/chipone.png"
+        "img": "https://i.ibb.co/NYJQLNF/chipone.png"
 
         
     }
