@@ -1,0 +1,29 @@
+.featureHeader{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(to right, #7e8ffe39, #5626db38);
+
+}
+.featureHeader h3{
+    font-weight: bold;
+    text-align:  center;
+    align-items: center;
+    color: #1A1919 ;
+}
+.card{
+    border: none;
+}
+.cardbody1 p{
+    color:#1A1919 ;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 25px;
+}
+.card-body span{
+    margin-right: 5px;
+    color:#757575 ;
+    font-weight: normal;
+}
+.card2{
+    background: linear-gradient(to right, #7e8ffe28, #5626db20);
+}
