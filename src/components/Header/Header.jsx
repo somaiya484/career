@@ -13,6 +13,7 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <div className='navbar-nav me-auto mb-2 mb-lg-0 '>
+                            <Link to="/" >Home</Link>
                             <Link to="/statistics" >Statistics</Link>
                             <Link to="/applied">Applied Jobs</Link>
                             <Link to="/blog">Blog</Link>
